@@ -14,7 +14,7 @@ public class HelloFunction {
     }
 
     private HelloService helloService() {
-        ApplicationContext context = new AnnotationConfigApplicationContext("com.example.fn");
+        ApplicationContext context = new AnnotationConfigApplicationContext(HelloFunction.class.getPackage().getName());
 
         return context.getBean("helloService", HelloService.class);
     }
