@@ -1,5 +1,5 @@
 name: fn-spring-workbench
-version: 0.0.5
+version: 0.0.6
 runtime: java
 cmd: de.roamingthings.fn.HelloFunction::handleRequest
 build_image: fnproject/fn-java-fdk-build:jdk9-1.0.62
